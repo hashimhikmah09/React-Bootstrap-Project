@@ -1,0 +1,26 @@
+.main{
+    width: 1240px;
+    height: 283.48px;
+    top: 3488.9px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    background: rgba(0, 0, 0, 0.87);
+}
+
+.container-title{
+    width: 498px;
+    height: 42px;
+    top: 3488.9px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 41.51px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: rgba(0, 0, 0, 0.87);
+}

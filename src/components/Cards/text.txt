@@ -1,0 +1,17 @@
+                    {/* <PageCard.Body>
+                        <PageCard.Title><h2 className="card-title">{props.title}</h2></PageCard.Title>
+                    </PageCard.Body>
+                    <PageCard.Img variant="" src={props.img} className="cardimg" rounded/> */}
+                
+
+                <div className="wrapper">
+            <Container>
+                <Row>
+                    <Col md={6} xs={12}><CardWrapper className="education" img={stemEducation} title="STEM Education" /></Col>
+                    <Col md={6} xs={12}><CardWrapper img={stemEducation} title="Application Development" className="app-dev"/></Col>
+                </Row>
+            </Container>
+            
+            
+        </div>
+         style: {backgroundColor: 'red'},
