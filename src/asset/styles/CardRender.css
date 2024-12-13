@@ -129,3 +129,18 @@
   }
   
 
+/* Add responsive styles for different contexts 
+ Small devices (tablet, 768px and down)*/
+@media (max-width: 768px) {
+    .card-heading{
+        height: 90px; 
+        font-size: 42px;
+        line-height: 40px;
+        text-align: left;
+        padding: 10px;
+        
+    }
+    .card.two, .card.four, .card.six {
+       margin-top: 30px;
+      }  
+ }
