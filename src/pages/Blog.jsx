@@ -6,6 +6,7 @@ import Blackandwhite from "../components/GetStarted/GetStarted";
 //import Cards from "../components/Cards/Cards";
 import Merch from "../components/MerchandiseCategory/Merch";
 import CardSection from "../components/Cards/CardRender";
+import Books from "../components/Books/Books";
 
 
 const Blog = () => {
@@ -22,10 +23,20 @@ const Blog = () => {
                         <img src={img1} className="img-fluid responsive-img" alt="myImage" />
                     </Col>
                 </Row>
+                <Row>
+                    <Blackandwhite/>
+                </Row>
+                <Row>
+                    <CardSection/>
+                </Row>
+                <Row>
+                    <Merch/>
+                </Row>
+                <Row>
+                    <Books/>
+                </Row>
             </Container>
-            <Blackandwhite/>
-            <CardSection/>
-            <Merch/>
+            
         </div>
     );
 }

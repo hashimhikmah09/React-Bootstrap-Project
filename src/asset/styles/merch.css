@@ -3,9 +3,7 @@
     height: 283.48px;
     top: 3488.9px;
     left: 100px;
-    gap: 0px;
-    opacity: 0px;
-    background: rgba(0, 0, 0, 0.87);
+    
 }
 
 .container-title{
@@ -15,12 +13,106 @@
     left: 100px;
     gap: 0px;
     opacity: 0px;
-    font-family: Inter;
+    font-family: sans-serif;
     font-size: 42px;
     font-weight: 600;
     line-height: 41.51px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    background: rgba(0, 0, 0, 0.87);
+    
 }
+.subContainer{
+    width: Fixed (1,240px)px;
+    height: Hug (209.48px)px;
+    top: 3562.9px;
+    left: 100px;
+    gap: 25px;
+    opacity: 0px;
+
+}
+.merch{
+    /* width: 290.55px; */
+    height: 92.24px;
+    padding: 32.28px 34.66px 32.28px 18.45px;
+    gap: 2px;
+    border-radius: 18.45px;
+    opacity: 0px;
+
+} 
+.merch .book{
+    font-family: Work Sans;
+    font-size: 18.16px;
+    font-weight: 400;
+    line-height: 27.67px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.book .fa-arrow-right {
+    /* width: 15.41px; */
+    height: 13.83px;
+    top: 5.09px;
+    left: 4.5px;
+    margin-left: 40px;
+    gap: 0px;
+    opacity: 0px;
+    color: rgba(0, 0, 0, 1);
+    
+
+  }
+  .fa-arrow-right{
+    /* width: 24px; */
+    height: 24px;
+    top: 34.1px;
+    left: 232px; 
+    padding: 5.09px 4.09px 5.09px 4.5px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  
+.merch.stem{
+    background: rgba(211, 227, 253, 1);
+}
+.merch.skill{
+    background: rgba(227, 227, 227, 1);
+}
+.merch.code{
+    background: rgba(194, 231, 255, 1);
+
+}
+.merch.design{
+    background: rgba(196, 238, 208, 1);
+
+}
+.merch.comic{
+    background: rgba(213, 209, 255, 1);
+
+}
+.merch.game{
+    background: rgba(253, 227, 255, 1);
+
+}
+.merch.flash{
+    background: rgba(238, 255, 190, 1);
+
+}
+.merch.other{
+    background: rgba(255, 225, 225, 1);
+
+}
+
+/*Small devices (tablet, 768px and down)*/
+@media (max-width: 768px) {
+    .merch .book{
+        font-size: 30px;
+        font-weight: 500;
+        padding: 10px;
+    }
+    .merch.skill,.merch.code, .merch.design, .merch.game,.merch.flash, .merch.other {
+        margin-top: 16px;
+    }
+    .book .fa-arrow-right{
+        margin-left: 3rem;
+    }
+    }
