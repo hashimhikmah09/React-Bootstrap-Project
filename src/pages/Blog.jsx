@@ -23,17 +23,29 @@ const Blog = () => {
                         <img src={img1} className="img-fluid responsive-img" alt="myImage" />
                     </Col>
                 </Row>
-                <Row>
-                    <Blackandwhite/>
+                <Row className="mb-4">
+                    <Col xs={12}>
+                        <Blackandwhite />
+                    </Col>
                 </Row>
-                <Row>
-                    <CardSection/>
+
+                <Row className="mb-4">
+                    <Col xs={12}>
+                        <CardSection />
+                    </Col>
                 </Row>
-                <Row>
-                    <Merch/>
+
+                <Row className="mb-4">
+                    <Col xs={12}>
+                        <Merch />
+                    </Col>
                 </Row>
-                <Row>
-                    <Books/>
+
+                {/* Books Row with spacing and full width */}
+                <Row className="w-100 mb-4">
+                    <Col xs={12}>
+                        <Books />
+                    </Col>
                 </Row>
             </Container>
             
