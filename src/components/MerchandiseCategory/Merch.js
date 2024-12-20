@@ -23,7 +23,7 @@ const Merch = () => {
                 <div className="subContainer">
                     <Row className="pt-4">
                         {categories.slice(0, 4).map((category, index) => (
-                        <Col xs={6} sm={6} md={3} key={index} className="mb-3">
+                        <Col xs={12} sm={6} md={3} key={index} className="mb-3">
                             <div className={`merch ${category.className}`}>
                                 <p className="book">
                                     {category.label} <FontAwesomeIcon icon={faArrowRight} />
@@ -35,7 +35,7 @@ const Merch = () => {
                     <Row className="pt-4">
                         {categories.slice(4).map((category, index) => (
         
-                        <Col xs={6} sm={6} md={3} key={index + 4} className="mb-3">
+                        <Col xs={12} sm={6} md={3} key={index + 4} className="mb-3">
                             <div className={`merch ${category.className}`}>
                                 <p className="book">
                                     {category.label} <FontAwesomeIcon icon={faArrowRight} />

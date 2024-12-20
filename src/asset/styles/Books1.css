@@ -1,3 +1,4 @@
+
 .magazine{
     display: flex;
     flex-wrap: nowrap;
@@ -8,6 +9,41 @@
     padding: 38.73px 48.5px 39.62px 47.5px;
     border-radius: 20px;
     background: rgba(254, 247, 224, 1);
+}
+.seven{
+    width: Hug (1,241px)px; 
+    height: Hug (593.35px)px;
+    top: 4505.73px;
+    left: 99.5px;
+    gap: 66px;
+    opacity: 0px; 
+    /* width: 1241px; */
+    height: 593.35px;
+    padding: 38.38px 47.5px 39.96px 48.5px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    background: rgba(237, 239, 255, 1);
+
+
+}
+.flash-card{
+    /* width: Hug (1,241px)px; */
+    height: Hug (593.35px)px;
+    top: 4505.73px;
+    left: 99.5px;
+    gap: 66px;
+    opacity: 0px; 
+    /* width: 1241px; */
+    height: 593.35px;
+    padding: 38.38px 47.5px 39.96px 48.5px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    background: rgba(246, 236, 255, 1);
+
+
+
 }
 /* .magazine-text{
     padding-top: 64px;
@@ -49,23 +85,26 @@ color: rgba(229, 231, 235, 1);
 } */
  .comic-img{
     width: 670px;
-height: 515px;
-padding: 0px 0.46px 0px 0px;
-gap: 0px;
-border-radius: 20px;
-opacity: 0px;
+    height: 515px;
+    padding: 0px 0.46px 0px 0px;
+    border-radius: 20px;
+
 
  }
+ .img-wrapper{
+    max-width: 100%;
+    overflow: hidden;
+ }
  @media screen and (max-width: 768px) {
-    .magazine {
+    .magazine .seven{
         flex-wrap: wrap; /* Allow content to wrap */
         flex-direction: row; /* Stack content vertically */
         text-align: center;
     }
     .comic-img{
-        width: 400px;
+    width: 400px;
     height: 400px;
-    padding: 0px 0.46px 0px 0px;
+    padding: 0px 0px 0px 0px;
     gap: 0px;
     border-radius: 20px;
     opacity: 0px;

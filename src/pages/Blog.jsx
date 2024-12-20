@@ -7,6 +7,8 @@ import Blackandwhite from "../components/GetStarted/GetStarted";
 import Merch from "../components/MerchandiseCategory/Merch";
 import CardSection from "../components/Cards/CardRender";
 import Books from "../components/Books/Books";
+// import Book1 from "../components/Books/Book1";
+// import Book2 from "../components/Books/Book2";
 
 
 const Blog = () => {
@@ -43,10 +45,10 @@ const Blog = () => {
 
                 {/* Books Row with spacing and full width */}
                 <Row className="w-100 mb-4">
-                    <Col xs={12}>
-                        <Books />
-                    </Col>
+                    <Books />
+                
                 </Row>
+               
             </Container>
             
         </div>
