@@ -45,7 +45,9 @@ const Blog = () => {
 
                 {/* Books Row with spacing and full width */}
                 <Row className="w-100 mb-4">
-                    <Books />
+                    <Col xs={12}>
+                        <Books />
+                    </Col>
                 
                 </Row>
                

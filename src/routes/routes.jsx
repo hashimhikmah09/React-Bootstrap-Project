@@ -1,6 +1,7 @@
 import {BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 import Header from "../components/Navbar/Header";
 import Blog from '../pages/Blog';
+import Platform from '../pages/Platform';
 
 const NavigatePages = () => {
     return(
@@ -10,7 +11,7 @@ const NavigatePages = () => {
             {/* Pages*/}
             <Routes>
                 <Route path="/" element={<Blog />} />
-               {/*  <Route path="/Platform" element={<Home />} /> */}
+                <Route path="/platforms" element={<Platform />} /> 
             </Routes>
             {/* Footer*/}
         </Router>

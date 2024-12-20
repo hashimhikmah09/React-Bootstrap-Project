@@ -10,8 +10,8 @@ const Book1 = () => {
             <Container fluid className="p-4">
                 <Row className="magazine ">
                     {/* Content Column */}
-                    <Col xs={12} md={6} className="magazine-text ">
-                        <h3 className=" ">
+                    <Col xs={12} md={6} className="d-flex flex-column align-items-center align-items-md-start education-text text-center text-md-start px-3 px-md-4">
+                        <h3 className="fw-bold fs-4 mb-3 ">
                             Comic magazines <br /> teaching kids soft skills
                         </h3>
                         <p className="magazine-writeup mb-4">
@@ -21,7 +21,7 @@ const Book1 = () => {
                             hands-on learning experiences in coding, STEM,<br />
                             and interactive classes.
                         </p>
-                        <Button variant='dark' className="px-4 py-2 align-self-center align-self-md-start">Purchase</Button>
+                        <Button variant='dark' className=" align-self-center align-self-md-start">Purchase</Button>
                     </Col>
 
                     {/* Image Column */}

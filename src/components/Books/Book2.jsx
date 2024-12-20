@@ -57,9 +57,8 @@ const Book2 = () => {
               <img
                 src={Education}
                 alt="Creative Books"
-                className="comic-img img-fluid rounded mx-auto d-block"
-                width="670px"
-                height="515px"
+                className="creative-img img-fluid rounded mx-auto d-block"
+              
               />
             </div>
             
