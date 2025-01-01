@@ -7,6 +7,11 @@ import Blackandwhite from "../components/GetStarted/GetStarted";
 import Merch from "../components/MerchandiseCategory/Merch";
 import CardSection from "../components/Cards/CardRender";
 import Books from "../components/Books/Books";
+import JoinTeamSection from "../components/JoinTeam/JoinTeam";
+import BuildSmallCards from "../components/SmallCards/SmallCards";
+import MoreSection from "../components/More/More";
+import OtherCard from "../components/joinOthers/joinOthers";
+//import Footer from "../components/Footer/footer";
 // import Book1 from "../components/Books/Book1";
 // import Book2 from "../components/Books/Book2";
 
@@ -50,8 +55,29 @@ const Blog = () => {
                     </Col>
                 
                 </Row>
+                <Row className="mb-4">
+                    <Col xs={12}>
+                        <JoinTeamSection />
+                    </Col>
+                </Row>
+                <Row className="mb-4">
+                    <Col xs={12}>
+                        <BuildSmallCards />
+                    </Col>
+                </Row>
+                <Row className="mb-4">
+                    <Col xs={12}>
+                        <MoreSection />
+                    </Col>
+                </Row>
+                <Row className="mb-4">
+                    <Col xs={12}>
+                        <OtherCard />
+                    </Col>
+                </Row>
                
             </Container>
+            {/* // <Footer /> */}
             
         </div>
     );

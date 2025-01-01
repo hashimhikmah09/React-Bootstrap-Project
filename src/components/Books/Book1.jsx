@@ -10,7 +10,7 @@ const Book1 = () => {
             <Container fluid className="p-4">
                 <Row className="magazine ">
                     {/* Content Column */}
-                    <Col xs={12} md={6} className="d-flex flex-column align-items-center align-items-md-start education-text text-center text-md-start px-3 px-md-4">
+                    <Col xs={12} md={6} className="d-flex flex-column justify-content-center align-items-center align-items-md-start education-text text-center text-md-start px-3 px-md-4">
                         <h3 className="fw-bold fs-4 mb-3 ">
                             Comic magazines <br /> teaching kids soft skills
                         </h3>

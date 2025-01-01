@@ -15,10 +15,10 @@ body {
     color: #343a40;
   }
   
-  p {
+   /* p {
     color: #6c757d;
     line-height: 1.6;
-  }
+  }  */
   
   /* Button Styles */
   button {
@@ -35,10 +35,7 @@ body {
     border-radius: 10px;
     overflow: hidden;
   }
-  
-  .card-title {
-    color: #007bff;
-  }
+   
   
   /* Navbar Styling */
   .navbar {
